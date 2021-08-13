@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Điểm trung bình môn</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.css">
+
+</head>
+<body>
+    <h1 class="title">Điểm trung bình các môn</h1>
+    <div class='wp-content'>
+      <div class='content'>
+        <div class='btn'><i class="fas fa-plus"></i></div>
+        <p id="dsmonhoc">Danh sách môn học</p>
+        <br>
+        <form class='form'>
+          <label>Môn học</label>
+          <input type="text" class='monhoc' >
+          <label>Số tín chỉ</label>
+          <input type="text" class='unit'>
+          <label>Phân loại</label>
+          <select class='diemchu'>
+            <option value="">Phân loại</option>
+            <option value="4.0">A+</option>
+            <option value="4.0">A</option>
+            <option value="3.5">B+</option>
+            <option value="3.0">B</option>
+            <option value="2.5">C+</option>
+            <option value="2.0">C</option>
+            <option value="1.5">D+</option>
+            <option value="1.0">D</option>
+            <option value="0.0">F</option>
+          </select>
+        </form>
+      </div>
+  
+      <div class='kq'>
+        <h3>Điểm TB của bạn: </h3>
+        <h3 id="gpa">Điểm trung bình</h3>
+      </div>
+    </div>
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/app.js"></script>
+
+</body>
+</html>

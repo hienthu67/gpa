@@ -1,0 +1,79 @@
+body {
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  text-align: center;
+}
+
+.wp-content{
+  background:#f1f2f1;
+  border: 3px solid black;
+  height: true;
+  width: 700px;
+  margin: 10px auto auto auto;
+}
+
+
+#dsmonhoc{
+  margin-left: 5px;
+  font-weight: bold;
+}
+.monhoc {
+  width: 220px;
+  height: 25px;
+  padding-left: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+.unit {
+  width: 50px;
+  height: 35px;
+  margin-right: 10px;
+  font-size: 20px;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+.form {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+
+
+.kq {
+  width: 400px;
+  height: 100px;
+  text-align: center;
+  margin: 20px auto 20px auto;
+}
+
+#gpa {
+  color: black;
+  font-weight: bold;
+}
+
+.diemchu {
+  border: 1px solid gray;
+  border-radius: 4px;
+  height: 28px;
+  width: 80px;
+}
+.btn{
+  float: right;
+  clear: both;
+  border-radius: 30px;
+  border: 2px solid black;
+  font-weight: bold;
+  width: 30px;
+  height: 30px;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-right: 10px;
+}
